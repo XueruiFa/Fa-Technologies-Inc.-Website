@@ -191,7 +191,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: 50% 95%;
 	height: auto;
-	padding: 50px;
+	padding: 30px;
 }
 
 .main-intro-header {
@@ -240,12 +240,20 @@ header {
 	font-weight: 50;
 }
 
+
+#motto {
+	font-size: 40px;
+	text-align: center;
+
+}
+
 .main-about-right {
 	display: inline-block;
 	white-space: nowrap;
 	overflow: auto;
 	float: right;
-	width: 47%
+	width: 47%;
+	margin-top: 5px;
 }
 
 .main-about-right-image-1 {
@@ -258,7 +266,6 @@ header {
 	max-width: 100%;
 	max-height: 100%
 	text-align: center;
-	height: auto;
 }
 
 .main-mission-statement { 
@@ -288,13 +295,13 @@ header {
 
 .main-mission-statement-left-header {
 	text-align: center;
-	font-size: 3.5em;
+	font-size: 4.5em;
 }
 
 .main-mission-statement-left-desc {
 	text-align: center;
 	padding: 30px;
-	font-size: 24px;
+	font-size: 26px;
 }
 
 .main-mission-statement-right {
@@ -310,28 +317,65 @@ header {
 	height: 100%;
 }
 
-/**
-.main-awards-banner {
+
+.main-products {
 	width: 100%;
-	height: 5em;
+	height: auto;
 	display: inline-block;
 	float: left;
 	font-family: "Montserrat", sans-serif;
-	background-color: blue;
+	background-color: #f2f2f2;
+	font-weight: bold;
 }
 
-.main-awards-banner-award {
+#main-products-title {
+	width: 100%;
+	height: auto;
+	font-size: 48px;
+	font-family: "Montserrat", sans-serif;
+	color: #000;
+	background-color: #fff;
+	text-align: center;
+}
+
+.main-products-ex {
+	height: auto;
 	width: 25%;
 	float: left;
 	text-align: center;
-	font-size: 4em;
+	font-size: 2.8em;
 	margin-top: 20px;
 	color: #80f;
+	margin-bottom: 10px;
 }
 
-*/
+.main-products-img {
+	width: 100%;
+}
 
-/* Slideshow container */
+.main-products-img-cont {
+	display: inline-block;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+.main-products-ex-desc {
+	width: 100%;
+	font-size: 16px;
+	color: #000;
+}
+
+.main-products-ex-desc-cont {
+	padding: 5px;
+	width: 24%;
+	float: left;
+	text-align: center;
+	margin-bottom: 15px;
+	overflow: auto;
+}
+
+
 .slideshow-container {
 	max-width: 100%
 	position: relative;
@@ -344,7 +388,7 @@ header {
 	position: absolute;
 	top: 50%;
 	width: auto;
-	margin-top: 1120px;
+	margin-top: 1625px;
 	padding: 16px;
 	color: white;
 	font-weight: bold;
