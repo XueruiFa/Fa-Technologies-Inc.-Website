@@ -1,0 +1,15 @@
+
+Fonts actively used in this project
+-----------------------------------
+
+Font name       :   Montserrat
+Font provider   :   google
+
+
+
+******************************************************************************
+
+
+
+
+Created by Typecast on 2016/05/24.
