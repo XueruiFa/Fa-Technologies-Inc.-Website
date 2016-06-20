@@ -156,21 +156,23 @@ header {
 	list-style-type: none;
     margin-left: 1.655em;
     padding: 0px;
-    width: 65%;
+    width: 50%;
 }
 
 .display a span {
 	margin-right: 30px;
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 100;
     text-transform: uppercase;
     text-align: center;
     color: #000;
+    text-decoration: none;
 }
 
 .display a span:hover {
 	text-decoration: underline;
+	color: orange;
 }
 
 .nav{
