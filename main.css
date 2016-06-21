@@ -163,7 +163,6 @@ header {
 
 .display a {
 	float: right;
-	display: inline-block;
 }
 
 .display a span {
