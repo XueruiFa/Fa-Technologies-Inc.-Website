@@ -138,6 +138,7 @@ header {
     font-size: 11px;
     letter-spacing: 1px;
     line-height: 1.3;
+    text-align: center;
 }
 
 .main-body {
@@ -148,15 +149,21 @@ header {
 	height: 2.5em;
 	display: inline-block;
 	text-align: center;
+	max-width: 100%;
+
 }
 
 .display {
-	float: right;
 	white-space: nowrap;
 	list-style-type: none;
-    margin-left: 1.655em;
+    margin-left: 32.5em;
     padding: 0px;
-    width: 50%;
+    max-width: 100%;
+}
+
+.display a {
+	float: right;
+	display: inline-block;
 }
 
 .display a span {
